@@ -9,7 +9,6 @@ body{
     height: 200vh;
     background-color: var(--CorPrincipal);
     color: var(--CorTexto);
-    overflow-x: hidden;
 }
 
 :root{
@@ -103,17 +102,20 @@ header a:hover::before{
     box-shadow: 0 0 1px white;
     position: absolute;
     top: 0;
-    right: -100%;
-    width: 70%;
+    right: -100px;
+    width: 0;
     height: 100vh;
     display: flex;
     flex-flow: column;
     transition: 0.5s;
     overflow: hidden;
-    padding: 26px 20px 0 35px;
+    padding: 0;
+    padding: 26px 0 0 0;
 }
 
 .exibir{
+    padding: 26px 20px 0 35px;
+    width: 70%;
     right: 0;
 }
 
